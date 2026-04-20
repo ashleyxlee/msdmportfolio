@@ -5,3 +5,7 @@ renv/library/
 *.zip
 repomix-output.xml
 _site/
+.Rproj.user
+
+/.quarto/
+**/*.quarto_ipynb
