@@ -1,0 +1,26 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!resume/Resume.Rmd"
+website:
+  title: "Ashley Lee"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Marketing Projects"
+        href: marketing-projects.qmd
+      - text: "Resume"
+        href: resume.qmd
+  google-analytics: "G-CR0G416PNV"
+format:
+  html:
+    theme: [sandstone, theme.scss]
+    toc: true
+    include-in-header: includes/gtm-head.html
+    include-before-body: includes/gtm-body.html
+
+open -e _quarto.yml
+open -e _quarto.yml
+

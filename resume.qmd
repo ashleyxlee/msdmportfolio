@@ -1,0 +1,67 @@
+---
+title: "Resume"
+format: html
+---
+
+You can view a PDF version of my resume [here](resume/Lee,%20Ashley%20-%20Resume.pdf).
+
+# Professional Summary
+
+Marketing operations and strategic sourcing professional with expertise in enterprise procurement, agency management, and cross-functional execution. Experienced in overseeing complex, high-priority initiatives while managing budgets, timelines, and stakeholder alignment across corporate and creative teams. Strong track record in process development, vendor compliance, and delivering enterprise-level outcomes across world-class media and technology brands.
+
+# Technical Skills
+
+-   **Procurement & Operations:** RFP/RFI Management, Contract Lifecycle Management, SOW Development, Vendor Compliance
+-   **Tools & Platforms:** Airtable, Microsoft Excel, CMS Platforms, Analytics Tools
+-   **Web Technologies:** HTML, Quarto, R, SQL
+-   **Competencies:** Stakeholder Alignment, Budget Management, Agency Sourcing, Process Development
+
+# Education
+
+| Degree                                    | Year      | Department                         | Institution     |
+|----------------------------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| M.S., Digital Marketing                   | 2024–2026 | College of Business Administration | Cal Poly Pomona |
+| B.S., Business Administration – Marketing | 2018–2021 | School of Business                 | UC Riverside    |
+
+# Work Experience
+
+### Sr. Sourcing Specialist, Enterprise Sourcing Marketing — The Walt Disney Company
+
+*November 2024 – Present · Burbank, CA*
+
+-   Promoted to lead full project lifecycle from RFP kickoff to proposal evaluation, leadership alignment, and scope execution for marketing initiatives including ESPN app advertising strategy and Super Bowl 2027 agency sourcing
+-   Manage end-to-end sourcing for renewals, RFPs, and enterprise agreements across Hulu, Disney+, and ESPN by driving efficiencies across the family of brands
+-   Developed self-serve marketing SOW process to standardize scope development, agency selection, and cross-functional collaboration with Legal and Finance
+-   Improved on-time and on-budget delivery of marketing projects across Disney Entertainment brands by 50% over 3 years
+-   Oversee vendor compliance and creative scope, driving \~10% in cost savings across marketing projects
+-   Ensure new martech partners comply with Disney's technology and privacy standards by leading vendors through InfoSecurity, AI, and Legal assessments
+
+------------------------------------------------------------------------
+
+### Sourcing Specialist, Enterprise Sourcing Marketing — The Walt Disney Company
+
+*May 2024 – November 2024 · Burbank, CA*
+
+-   Built and formalized project management processes to streamline stakeholder alignment including standard timelines, best practice documentation, and cross-functional expectations
+-   Partnered with Legal and Finance to translate commercial and compliance guidance into actionable SOPs for creative teams across payment terms, event activations, and milestone deliverables
+-   Managed \$17M+ budget line item across multiple marketing teams, overseeing spend tracking, contract lifecycle management, and scope review
+-   Led complex scope negotiations aligning Disney's creative objectives with project milestones and budget parameters, consistently delivering cost savings with added-value services
+
+------------------------------------------------------------------------
+
+### Associate Sourcing Specialist, Enterprise Sourcing Marketing — The Walt Disney Company
+
+*November 2022 – May 2024 · Burbank, CA*
+
+-   Managed agency sourcing and onboarding for Hulu's social platforms (X, TikTok, Meta), ESPN series activations, and Disney Branded TV Channels — overseeing \~\$7M in annual spend
+-   Developed agency shortlists, led cross-functional vetting and onboarding, and aligned agency proposals to contracts prior to execution
+-   Designed and implemented an Airtable agency dashboard tracking 300+ suppliers across 10+ data fields, improving workflow visibility and serving as a structural roadmap for other Disney divisions
+
+------------------------------------------------------------------------
+
+### Strategic Sourcing Intern — Disneyland Resort
+
+*June 2022 – November 2022 · Anaheim, CA*
+
+-   Executed RFP/RFI processes including a \$4M+ contract negotiation for Services, Design & Construction at Disneyland Resort and California Adventure Parks
+-   Performed data-driven spend analysis in Microsoft Excel to evaluate cost reduction opportunities across 2 major sourcing categories

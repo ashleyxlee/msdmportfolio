@@ -1,0 +1,7 @@
+.DS_Store
+.Rhistory
+.Rprofile
+renv/library/
+*.zip
+repomix-output.xml
+_site/
