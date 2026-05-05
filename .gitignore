@@ -5,3 +5,6 @@ _site/
 .Rhistory
 .RData
 renv/
+
+/.quarto/
+**/*.quarto_ipynb

@@ -1,5 +1,2 @@
-/analytics-projects/analytics-projects
-  Basic-Auth: ashleysite_guest:msdm_tri
-
-/analytics-projects/analytics-projects.html
+/analytics-projects/*
   Basic-Auth: ashleysite_guest:msdm_tri
