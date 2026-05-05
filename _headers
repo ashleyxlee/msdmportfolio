@@ -1,0 +1,5 @@
+/website-analytics/*
+  Basic-Auth: ashleysite_guest:msdm_tri
+
+/website-analytics.html
+  Basic-Auth: ashleysite_guest:msdm_tri
