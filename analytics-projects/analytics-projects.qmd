@@ -1,0 +1,47 @@
+---
+title: "Analytics Projects - TRI Specific"
+subtitle: "Data analysis and interactive tools built with R, Shiny, and Quarto to support a year-long capstone initiative with the Trauma Resource Institute."
+---
+
+## Overview
+
+This section showcases my applied analytics work using GA4 event-level data from the Trauma Resource Institute (TRI) — a nonprofit offering trauma-informed training programs for communities and healthcare professionals. 
+
+Each project applies a different analytical tool to answer real marketing questions 
+around user behavior, conversion optimization, and engagement.
+
+---
+
+## Quarto Dashboard — TRI Page View Analysis
+
+An interactive Quarto dashboard analyzing whether users who view more pages are more
+likely to convert. Includes conversion funnel breakdowns, session-level metrics, 
+and key insights for nonprofit marketing strategy.
+
+```{r}
+#| echo: false
+knitr::include_url("quarto-dashboard.html", height = "600px")
+```
+
+---
+
+## Shiny App — TRI Conversion Analytics
+
+A full Shiny application with global filters for date range, device, and traffic source. 
+Features logistic regression odds ratios, random forest variable importance, and 
+predicted booking probability curves.
+
+[Launch Shiny App](https://ashleyxlee.shinyapps.io/msdm-project/){.btn .btn-primary target="_blank"}
+
+---
+
+## RevealJS Presentation — GA4 Data Analysis
+
+A slide deck summarizing the full 28-day TRI GA4 analysis — covering session behavior, 
+conversion rates by page depth, device breakdowns, and traffic source quality. 
+Built with Quarto RevealJS.
+
+```{r}
+#| echo: false
+knitr::include_url("portfolio_revealjs.html", height = "500px")
+```

@@ -1,0 +1,15 @@
+---
+title: "Portfolio Site Analytics"
+subtitle: "Measuring the performance of this site"
+---
+
+# Website Analytics Report
+
+This page presents insights this site's website traffic data collected through Google Analytics 4, Google Search Console, BigQuery, and Looker Studio.
+
+## Looker Studio 
+
+## Key Metrics 
+
+## Traffic Insights
+

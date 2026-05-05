@@ -1,11 +1,11 @@
 ---
-title: "Client Overview of GA4 Data Analysis"
-subtitle: "Client name is redacted for privacy"
+title: "Overview of TRI's GA4 Data Analysis"
+subtitle: "Analysis over a 28-day observation window"
 author: "Ashley Lee"
 date: today
 format:
   revealjs:
-    theme: cosmo
+    theme: solarized
     transition: slide
     slide-number: true
     chalkboard: false
@@ -89,21 +89,22 @@ df_sessions <- ga4_events_28d |>
 
 ## About This Analysis {background-color="#1a1a2e"}
 
-::: {.incremental}
-- **Client:** Trauma Resource Institute (TRI) — a nonprofit offering trauma-informed training
-- **Data:** 28 days of GA4 event-level data (~3,700 sessions)
-- **Goal:** Understand what drives users from a page view to a booking conversion
-- **Tools:** R · Quarto · ggplot2 · plotly · GA4
+::: incremental
+-   **Client:** Trauma Resource Institute (TRI) — a nonprofit offering trauma-informed trainings for clinicians and communities
+-   **Data:** 28-day obeservation window GA4 event-level data (\~3,700 sessions)
+-   **Analysis Goal:** Understand what drives users from a page view to a booking conversion, and implement strategies to improve bounce rates
+-   **Tools:** R, Quarto, SQL, BigQuery, GA4
 :::
 
----
+## Analytical Observation Goals: {background-color="#1a1a2e"}
 
-## Research Question {background-color="#2F80ED" color="white"}
+> -   Improve conversion rates across the TRI site.
+>
+> -   Do users who view more pages convert at higher rates?
+>
+> -   Which traffic sources and devices drive the most engaged visitors?
 
-> **Do users who view more pages convert at higher rates?**  
-> And which traffic sources and devices drive the most engaged visitors?
-
----
+------------------------------------------------------------------------
 
 ## Key Metrics {.smaller}
 
@@ -122,7 +123,7 @@ tibble(
   DT::datatable(rownames = FALSE, options = list(dom = "t", paging = FALSE))
 ```
 
----
+------------------------------------------------------------------------
 
 ## Finding 1: Most Users Never Go Beyond 1 Page {.smaller}
 
@@ -145,7 +146,7 @@ ggplot(threshold_data, aes(x = page_view_bucket, y = n)) +
         plot.title = element_text(face = "bold"))
 ```
 
----
+------------------------------------------------------------------------
 
 ## Finding 2: Conversion Rises Sharply at 4+ Pages {.smaller}
 
@@ -182,7 +183,7 @@ ggplot(cvr_data, aes(x = page_view_bucket, y = cvr,
         plot.title = element_text(face = "bold"))
 ```
 
----
+------------------------------------------------------------------------
 
 ## Finding 3: Device Breakdown {.smaller}
 
@@ -213,7 +214,7 @@ ggplot(device_data, aes(x = fct_reorder(device_category, sessions), y = sessions
         plot.title = element_text(face = "bold"))
 ```
 
----
+------------------------------------------------------------------------
 
 ## Finding 4: Top Traffic Sources {.smaller}
 
@@ -242,36 +243,17 @@ ggplot(source_data, aes(x = fct_reorder(traffic_source, sessions), y = sessions)
         plot.title = element_text(face = "bold"))
 ```
 
----
+------------------------------------------------------------------------
 
 ## Key Insights & Recommendations {background-color="#1a1a2e"}
 
-::: {.incremental}
-- 📉 **60% of sessions end after 1 page** — TRI's biggest opportunity is improving early-session engagement
-- 📈 **4+ page sessions convert 5–28x higher** — content depth signals strong booking intent  
-- 📱 **Mobile drives volume, Desktop drives conversions** — optimize mobile UX for conversion
-- 🔗 **Traffic source quality varies widely** — invest in sources with high CVR, not just volume
-- 🎯 **Training page views correlate with conversion** — promote training content earlier in the funnel
+::: incremental
+-   **60% of sessions end after 1 page** — TRI's biggest opportunity is improving early-session engagement
+-   **4+ page sessions convert 5–28x higher** — content depth = strong booking intent
+-   **Mobile drives volume, Desktop drives conversions** — optimize mobile UX for conversion opportunities
+-   **Training page views correlate with conversion** — promote training content [earlier]{.underline} in the funnel
 :::
 
----
+------------------------------------------------------------------------
 
-## Skills Demonstrated {background-color="#2F80ED"}
-
-::: {.incremental}
-- ✅ GA4 event-level data wrangling in R
-- ✅ Session reconstruction with 30-min inactivity rule
-- ✅ Conversion funnel analysis
-- ✅ Data visualization with ggplot2
-- ✅ Reproducible reporting with Quarto RevealJS
-- ✅ Nonprofit marketing analytics application
-:::
-
----
-
-## Thank You {background-color="#1a1a2e"}
-
-**Ashley Lee**  
-MS Digital Marketing · Cal Poly Pomona  
-
-[🔗 Portfolio](https://ashleyxlee.netlify.app) · [💻 GitHub](https://github.com/ashleyxlee)
+# Thank You!

@@ -1,11 +1,5 @@
-.DS_Store
-.Rhistory
-.Rprofile
-renv/library/
-*.zip
-repomix-output.xml
 _site/
-.Rproj.user
-
-/.quarto/
-**/*.quarto_ipynb
+.Rproj.user/
+.Rhistory
+.RData
+renv/

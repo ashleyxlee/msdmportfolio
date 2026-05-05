@@ -1,0 +1,15 @@
+{
+  "hash": "4a60660d8bb48d1d4ac86b5236335456",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Analytics Projects - TRI Specific\"\nsubtitle: \"Data analysis and interactive tools built with R, Shiny, and Quarto to support a year-long capstone initiative with the Trauma Resource Institute.\"\n---\n\n## Overview\n\nThis section showcases my applied analytics work using GA4 event-level data from the Trauma Resource Institute (TRI) — a nonprofit offering trauma-informed training programs for communities and healthcare professionals. \n\nEach project applies a different analytical tool to answer real marketing questions \naround user behavior, conversion optimization, and engagement.\n\n---\n\n## Quarto Dashboard — TRI Page View Analysis\n\nAn interactive Quarto dashboard analyzing whether users who view more pages are more\nlikely to convert. Includes conversion funnel breakdowns, session-level metrics, \nand key insights for nonprofit marketing strategy.\n\n\n::: {.cell}\n<iframe src=\"quarto-dashboard.html\" width=\"672\" height=\"600px\" data-external=\"1\"></iframe>\n:::\n\n\n---\n\n## Shiny App — TRI Conversion Analytics\n\nA full Shiny application with global filters for date range, device, and traffic source. \nFeatures logistic regression odds ratios, random forest variable importance, and \npredicted booking probability curves.\n\n[Launch Shiny App](https://ashleyxlee.shinyapps.io/msdm-project/){.btn .btn-primary target=\"_blank\"}\n\n---\n\n## RevealJS Presentation — GA4 Data Analysis\n\nA slide deck summarizing the full 28-day TRI GA4 analysis — covering session behavior, \nconversion rates by page depth, device breakdowns, and traffic source quality. \nBuilt with Quarto RevealJS.\n\n\n::: {.cell}\n<iframe src=\"portfolio_revealjs.html\" width=\"672\" height=\"500px\" data-external=\"1\"></iframe>\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
